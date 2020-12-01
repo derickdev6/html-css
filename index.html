@@ -7,31 +7,27 @@
 </head>
 <body>
     <main>
-        <form action="">
 
-            <label for="name">
-                <span>Your name</span>
-                <input type="text" id="name" name="name" autocomplete="name" required>
-            </label>
+        <select name="countries">
+            <option value="Argentina">Argentina</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Honduras">Honduras</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Ecuador">Ecuador</option>
+        </select>
 
-            <label for="email">
-                <span>Your email</span>
-                <input type="email" id="email" name="email" autocomplete="email" required>
-            </label>
-
-            <label for="country">
-                <span>Your country</span>
-                <input type="text" id="country" name="country" autocomplete="country" required>
-            </label>
-
-            <label for="postal">
-                <span>Your postal code</span>
-                <input type="text" id="postal" name="postal" autocomplete="postal-code" required>
-            </label>
-
-            <input type="submit">
-
-        </form>
+        <input list="countries">
+        <datalist id="countries">
+            <option value="Argentina"></option>
+            <option value="Bolivia"></option>
+            <option value="Colombia"></option>
+            <option value="Honduras"></option>
+            <option value="Paraguay"></option>
+            <option value="Brasil"></option>
+            <option value="Ecuador"></option>            
+        </datalist>
     </main>
 </body>
 </html>
