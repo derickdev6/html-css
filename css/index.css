@@ -1,26 +1,13 @@
-.main-nav {
-    margin: 10px 0 0 0;
-    list-style: none;
+* {
+    box-sizing: border-box;
     padding: 0;
-    background-color: #22222266;
-}
-.main-nav__item {
-    display: inline-block;
-}
-.main-nav__item a {
-    color: #222222;
-    border-radius: 5px;
-    text-decoration: none;
+    margin: 0;
 }
 
-.main-nav__item a:hover {
-    background-color: #22222266;
-    color: #dddddd;
-}
-.main-nav__item a:active {
-    background-color: #22222299;
-    color: #dddddd;
-}
-.main-nav__item a::after {
-    content: " |";
+main {
+    width: 100%;
+    height: 500px;
+    border: 10px solid grey;
+    padding: 20px 35px;
+    background-color: red;
 }
