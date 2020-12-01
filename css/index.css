@@ -1,0 +1,26 @@
+.main-nav {
+    margin: 10px 0 0 0;
+    list-style: none;
+    padding: 0;
+    background-color: #22222266;
+}
+.main-nav__item {
+    display: inline-block;
+}
+.main-nav__item a {
+    color: #222222;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.main-nav__item a:hover {
+    background-color: #22222266;
+    color: #dddddd;
+}
+.main-nav__item a:active {
+    background-color: #22222299;
+    color: #dddddd;
+}
+.main-nav__item a::after {
+    content: " |";
+}
