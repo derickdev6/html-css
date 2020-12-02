@@ -3,20 +3,47 @@
     margin: 0;
     padding: 0;
 }
-html {
+html{
+    font-size: 10px;
 }
 
-main{
-    width: 100vw;
-    height: 100vh;
+.parent{
+    display: inline-block;
+    margin: 50px 0 0 0;
+    width: 100%;
+    /* border: 2px black dotted;
+    background-color: lightgray; */
+    font-size: 0;
+}
+.box{
+    display: inline-block;
     background-color: lightgreen;
+    width: 30%;
+    margin: 0 0 0 2.5%;
+    max-height: 700px;
+    font-size: 2rem;
+    border-radius: 30px;
 }
-
-section{
-    width: 80%;
-    min-width: 320px;
-    max-width: 500px;
-    min-height: 500px;
-    background-color: lightseagreen;
+.title-container{
+    position: relative;
+    top: -10px;
+    background-color: lightskyblue;
+    text-align: center;
+    max-width: 50%;
+    min-width: 200px;
     margin: 0 auto;
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img-container{
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+.img-container img{
+    width: 100%;
+    height: 100%;
+}
+.description-container{
+    padding: 20px;
 }
