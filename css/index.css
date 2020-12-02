@@ -1,9 +1,7 @@
-div p {
-    color: green;
+html {
+    font-size: 10px;
 }
-div > p {
-    color: red;
-}
-section p {
-    color: blue;
+
+p {
+    font-size: 1.6rem;
 }
