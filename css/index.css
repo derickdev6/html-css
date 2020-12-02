@@ -1,3 +1,9 @@
-h2 ~ p {
+div p {
+    color: green;
+}
+div > p {
     color: red;
+}
+section p {
+    color: blue;
 }
