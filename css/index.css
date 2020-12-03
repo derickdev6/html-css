@@ -17,7 +17,6 @@ html{
 }
 .box{
     display: inline-block;
-    background-color: lightgreen;
     width: 30%;
     margin: 0 0 0 2.5%;
     max-height: 700px;
@@ -27,13 +26,13 @@ html{
 .title-container{
     position: relative;
     top: -10px;
-    background-color: lightskyblue;
     text-align: center;
     max-width: 50%;
     min-width: 200px;
     margin: 0 auto;
     border-radius: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
 }
 .img-container{
     width: 150px;
@@ -45,5 +44,29 @@ html{
     height: 100%;
 }
 .description-container{
-    padding: 20px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: #ffffff88;
+}
+#box1 {
+    background-color: #881111;
+}
+#box1 .title-container {
+    background-color: #aa3333;
+    border: solid 3px #dd6666;
+}
+#box2 {
+    background-color: #1144bb;
+}
+#box2 .title-container {
+    background-color: #3366dd;
+    border: solid 3px #6699ff;
+}
+#box3 {
+    background-color: #118811;
+}
+#box3 .title-container {
+    background-color: #33aa33;
+    border: solid 3px #66dd66;
 }
