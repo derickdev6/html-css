@@ -1,0 +1,5 @@
+.b2, .b3, .b4{
+    width: 33.333%;
+    flex-grow: 1;
+    height: 30rem;
+}

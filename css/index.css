@@ -4,37 +4,49 @@
     padding: 0;
 }
 html{
-    font-size: 10px;
-    font-family: 'Padauk', sans-serif;
+    font-size: 62.5%;
 }
-body{
-    font-size: 1.6rem;
-}
+/* ------------------Main------------------ */
+
 .container{
-    border: .3rem solid black;
     display: flex;
-    align-items: center;
-    height: 100vh;
+    flex-wrap: wrap;
+    background-color: red;
+    max-width: 120rem;
+    /* margin: 0 auto 0 auto; */
 }
-.box{
-    width: 10rem;
-    height: 10rem;
+
+.b1, .b2, .b3, .b4, .b5{
+    width: 100%;
+    min-width: 15rem;
+    height: 15rem;
 }
-.box1{
-    background-color: slategray;
+.b1{
+    background-color: darkseagreen;
 }
-.box2{
-    background-color: lightblue;
+.b2{
+    background-color: seagreen;
 }
-.box3{
-    background-color: lightcoral;
-}
-.box4{
-    background-color: lightgreen;
-}
-.box5{
-    background-color: lightgray;
-}
-.box6{
+.b3{
     background-color: lightseagreen;
 }
+.b4{
+    background-color: lightblue;
+}
+.b5{
+    background-color: lightsteelblue;
+}
+
+/* @media (min-width: 600px){
+    .b2, .b3{
+        width: 50%;
+        height: 20rem;
+    }
+}
+@media (min-width: 1000px){
+    .b2, .b3, .b4{
+        width: 33.333%;
+        flex-grow: 1;
+        height: 30rem;
+    }
+} */
