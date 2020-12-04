@@ -12,6 +12,8 @@ body{
 .container{
     border: .3rem solid black;
     display: flex;
+    align-items: center;
+    height: 100vh;
 }
 .box{
     width: 10rem;
